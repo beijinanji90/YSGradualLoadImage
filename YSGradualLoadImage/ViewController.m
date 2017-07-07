@@ -78,6 +78,7 @@
     CGImageRef imageRef = CGImageSourceCreateImageAtIndex(_incrementallyImgSource, 0, NULL);
     self.imageView.image = [UIImage imageWithCGImage:imageRef];
     CGImageRelease(imageRef);
+    
 }
 
 
